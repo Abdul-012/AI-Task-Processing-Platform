@@ -2,6 +2,11 @@
 
 TaskForge is a production-ready MERN-style task processing platform with a Python background worker. Users register, log in, create text-processing jobs, and watch asynchronous workers move those jobs through `pending`, `running`, `success`, and `failed` states.
 
+## Repository Links
+
+- Application repository: `https://github.com/Abdul-012/AI-Task-Processing-Platform`
+- Infrastructure repository: `https://github.com/Abdul-012/AI-Task-Processing-Platform-Infra`
+
 ## Services
 
 | Service | Stack | Responsibility |
@@ -145,7 +150,7 @@ cd ai-task-platform-app
 git init
 git add .
 git commit -m "initial application platform"
-git remote add origin git@github.com:YOUR_ORG/ai-task-platform-app.git
+git remote add origin git@github.com:Abdul-012/AI-Task-Processing-Platform.git
 git push -u origin main
 ```
 
@@ -156,7 +161,7 @@ cd ../ai-task-platform-infra
 git init
 git add .
 git commit -m "initial gitops infrastructure"
-git remote add origin git@github.com:YOUR_ORG/ai-task-platform-infra.git
+git remote add origin git@github.com:Abdul-012/AI-Task-Processing-Platform-Infra.git
 git push -u origin main
 ```
 
